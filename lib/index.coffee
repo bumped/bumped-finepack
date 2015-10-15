@@ -2,53 +2,55 @@
 
 fs           = require 'fs'
 os           = require 'os'
-Logger       = require 'acho'
 async        = require 'async'
-readPkg      = require 'read-pkg'
 finepack     = require 'finepack'
+JSON         = require 'json-future'
 objectAssign = require 'object-assign'
 
 defaultOptions =
   lint     : true
   validate : true
 
-readFile = (filename, cb) -> fs.readFile filename, encoding:'utf8', cb
-saveFile = (filename, data, cb) ->
-  stringify = (data) -> JSON.stringify(data, null, 2) + os.EOL
-  fs.writeFile filename, stringify(data), encoding:'utf8', cb
-
+printMessage = (logger, filename, type, messages) ->
+  logger.transport logger.generateMessage type, "#{filename}: #{message}" for message in messages
 
 module.exports = (bumped, plugin, cb) ->
-  options = objectAssign defaultOptions, plugin.options
 
-  async.eachSeries bumped.config.rc.files, (file, next) ->
-    readFile file, (err, pkg) ->
+  options = objectAssign defaultOptions, plugin.options
+  globalError = false
+  globalMessage = undefined
+  globalMessageType = undefined
+
+  async.eachSeries bumped.config.rc.files, (filename, next) ->
+
+    JSON.read filename, (err, pkg) ->
       return cb err if err
 
       finepack pkg, options, (err, newPkg, messages) ->
         return cb err if err
+        localError = false
 
-        logger = new Logger
-          color: bumped.logger.color
-          types: bumped.logger.types
-          messages: messages
-          outputType: (type, filename) -> "#{type} (#{filename})\t: "
-          print: (filename) ->
-            for type of @types when type is ('warn' or 'error')
-              @transport @generateMessage(type, filename, message) for message in @messages[type]
-          generateMessage: (type, filename, message) ->
-            return unless @isPrintable type
-            colorType   = @types[type].color
-            messageType = @outputType type, filename
-            messageType = @colorize colorType, messageType
-            message     = @outputMessage message
-            message     = @colorize @types.line.color, message
-            messageType + message
+        if messages.error.length isnt 0
+          printMessage plugin.logger, filename, 'error', messages.error
+          globalError = true
+          localError = true
 
-        logger.print file
+        if messages.warn.length isnt 0
+          printMessage plugin.logger, filename, 'warn', messages.warn
 
-        if logger.messages.error.length isnt 0
-          next "An error founded linting your files. Fix it before continue."
-        else
-          saveFile file, newPkg, next
-  , cb
+        if messages.success[0]
+          globalMessage = messages.success[0]
+          globalMessageType = 'success'
+        else if messages.info[0]
+          globalMessage = messages.info[0]
+          globalMessageType = 'info'
+
+        if localError then next true else JSON.save filename, newPkg, next
+  , ->
+
+    if globalError
+      cb('Someting is wrong. Resolve red messages to continue.')
+    else
+      plugin.logger
+      plugin.logger[globalMessageType] globalMessage
+      cb()

@@ -18,7 +18,6 @@
     "finepack"
   ],
   "dependencies": {
-    "acho": "*",
     "async": "*",
     "coffee-script": "*",
     "finepack": "*",
