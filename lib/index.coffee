@@ -47,10 +47,8 @@ module.exports = (bumped, plugin, cb) ->
 
         if localError then next true else JSON.save filename, newPkg, next
   , ->
-
-    if globalError
-      cb('Someting is wrong. Resolve red messages to continue.')
-    else
-      plugin.logger
-      plugin.logger[globalMessageType] globalMessage
-      cb()
+    return cb 'Someting is wrong. Resolve red messages to continue.' if  globalError
+    globalMessage = globalMessage.replace 'file', 'files' if bumped.config.rc.files.length > 1
+    plugin.logger
+    plugin.logger[globalMessageType] globalMessage
+    cb()
