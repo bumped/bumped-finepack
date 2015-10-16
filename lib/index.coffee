@@ -5,9 +5,12 @@ os           = require 'os'
 async        = require 'async'
 finepack     = require 'finepack'
 JSON         = require 'json-future'
+chalk        = require 'chalk'
 
 printMessage = (logger, filename, type, messages) ->
-  logger.transport logger.generateMessage type, "#{filename}: #{message}" for message in messages
+  color = if type is 'warn' then 'yellow' else 'red'
+  colorize = chalk[color]
+  logger.transport logger.generateMessage type, "#{filename}: #{colorize(message)}" for message in messages
 
 module.exports = (bumped, plugin, cb) ->
 
@@ -36,4 +39,4 @@ module.exports = (bumped, plugin, cb) ->
 
         if localError then next true else JSON.saveAsync filename, newPkg, next
   , ->
-    cb('Someting is wrong. Resolve red messages to continue.' if globalError)
+    cb globalError
