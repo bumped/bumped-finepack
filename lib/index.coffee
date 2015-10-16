@@ -5,18 +5,16 @@ os           = require 'os'
 async        = require 'async'
 finepack     = require 'finepack'
 JSON         = require 'json-future'
-objectAssign = require 'object-assign'
-
-defaultOptions =
-  lint     : true
-  validate : true
 
 printMessage = (logger, filename, type, messages) ->
   logger.transport logger.generateMessage type, "#{filename}: #{message}" for message in messages
 
 module.exports = (bumped, plugin, cb) ->
 
-  options = objectAssign defaultOptions, plugin.options
+  options =
+    lint: if plugin.lint? then plugin.lint else true
+    validate: if plugin.validate? then plugin.validate else true
+
   globalError = false
 
   async.eachSeries bumped.config.rc.files, (filename, next) ->

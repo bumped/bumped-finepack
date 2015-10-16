@@ -21,8 +21,7 @@
     "async": "latest",
     "coffee-script": "latest",
     "finepack": "latest",
-    "json-future": "latest",
-    "object-assign": "latest"
+    "json-future": "latest"
   },
   "devDependencies": {
     "mocha": "*",
