@@ -3,10 +3,12 @@ files: [
 ]
 
 plugins:
-  postrelease:
 
+  prerelease:
     'Linting config files':
       plugin: 'bumped-finepack'
+
+  postrelease:
 
     'Generating CHANGELOG file':
       plugin: 'bumped-changelog'
