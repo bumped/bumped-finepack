@@ -18,10 +18,11 @@
     "finepack"
   ],
   "dependencies": {
-    "async": "*",
-    "coffee-script": "*",
-    "finepack": "*",
-    "object-assign": "*"
+    "async": "latest",
+    "coffee-script": "latest",
+    "finepack": "latest",
+    "json-future": "latest",
+    "object-assign": "latest"
   },
   "devDependencies": {
     "mocha": "*",
