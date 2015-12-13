@@ -1,5 +1,12 @@
 # bumped-finepack
 
+<h1 align="center">
+  <br>
+  <img src="http://i.imgur.com/DmMbFwL.png" alt="bumped">
+  <br>
+  <br>
+</h1>
+
 ![Last version](https://img.shields.io/github/tag/Bumped/bumped-finepack.svg?style=flat-square)
 [![Build Status](http://img.shields.io/travis/Bumped/bumped-finepack/master.svg?style=flat-square)](https://travis-ci.org/Bumped/bumped-finepack)
 [![Dependency status](http://img.shields.io/david/Bumped/bumped-finepack.svg?style=flat-square)](https://david-dm.org/Bumped/bumped-finepack)
