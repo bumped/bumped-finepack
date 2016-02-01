@@ -1,10 +1,9 @@
 'use strict'
 
-fs           = require 'fs'
-os           = require 'os'
+path         = require 'path'
 async        = require 'async'
 finepack     = require 'finepack'
-JSON         = require 'json-future'
+jsonFuture   = require 'json-future'
 chalk        = require 'chalk'
 
 printMessage = (logger, filename, type, messages) ->
@@ -21,8 +20,7 @@ module.exports = (bumped, plugin, cb) ->
   globalError = false
 
   async.eachSeries bumped.config.rc.files, (filename, next) ->
-
-    JSON.loadAsync filename, (err, pkg) ->
+    jsonFuture.loadAsync filename, (err, pkg) ->
       return cb err if err
 
       finepack pkg, options, (err, newPkg, messages) ->
@@ -37,6 +35,7 @@ module.exports = (bumped, plugin, cb) ->
         if messages.warn.length isnt 0
           printMessage plugin.logger, filename, 'warn', messages.warn
 
-        if localError then next true else JSON.saveAsync filename, newPkg, next
+        return next(true) if localError
+        jsonFuture.saveAsync filename, newPkg, next
   , ->
     cb globalError
