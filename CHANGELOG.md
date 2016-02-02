@@ -1,8 +1,17 @@
+<a name="0.2.2"></a>
+## 0.2.2 (2016-02-02)
+
+
+* update deps ([5e47b8e](https://github.com/bumped/bumped-finepack/commit/5e47b8e))
+
+
+
 <a name="0.2.1"></a>
 ## 0.2.1 (2016-02-01)
 
 
 * Add bumped logo ([4230eaf](https://github.com/bumped/bumped-finepack/commit/4230eaf))
+* Release 0.2.1 ([e0bd6cd](https://github.com/bumped/bumped-finepack/commit/e0bd6cd))
 * Update bumped settings ([1d235d5](https://github.com/bumped/bumped-finepack/commit/1d235d5))
 * Use json-future. Lock dependencies. ([8671509](https://github.com/bumped/bumped-finepack/commit/8671509))
 
