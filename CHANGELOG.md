@@ -1,7 +1,21 @@
+<a name="0.2.3"></a>
+## 0.2.3 (2016-02-09)
+
+
+### chore
+
+* chore(package): update should to version 8.2.2 ([1e78cef](https://github.com/bumped/bumped-finepack/commit/1e78cef))
+
+* Merge pull request #1 from bumped/greenkeeper-should-8.2.2 ([af0c93a](https://github.com/bumped/bumped-finepack/commit/af0c93a))
+* lock devDependencies ([6b26f90](https://github.com/bumped/bumped-finepack/commit/6b26f90))
+
+
+
 <a name="0.2.2"></a>
 ## 0.2.2 (2016-02-02)
 
 
+* Release 0.2.2 ([1446132](https://github.com/bumped/bumped-finepack/commit/1446132))
 * update deps ([5e47b8e](https://github.com/bumped/bumped-finepack/commit/5e47b8e))
 
 
@@ -22,9 +36,9 @@
 
 
 * 0.2.0 releases ([5cfcade](https://github.com/bumped/bumped-finepack/commit/5cfcade))
+* Now with colors support 💄 ([cc9e1de](https://github.com/bumped/bumped-finepack/commit/cc9e1de))
 * deleted unnnecessary dependency ([cd6331f](https://github.com/bumped/bumped-finepack/commit/cd6331f))
 * improve output message ([cd7dfea](https://github.com/bumped/bumped-finepack/commit/cd7dfea))
-* Now with colors support 💄 ([cc9e1de](https://github.com/bumped/bumped-finepack/commit/cc9e1de))
 * rewritten ([e190ee6](https://github.com/bumped/bumped-finepack/commit/e190ee6))
 * updated bump config ([f5c6a47](https://github.com/bumped/bumped-finepack/commit/f5c6a47))
 * updated dependencies ([44294fb](https://github.com/bumped/bumped-finepack/commit/44294fb))
