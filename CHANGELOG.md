@@ -1,3 +1,11 @@
+<a name="0.2.4"></a>
+## 0.2.4 (2016-06-23)
+
+* Add plugin keyword ([47012fb](https://github.com/bumped/bumped-finepack/commit/47012fb))
+* chore(package): update chalk to version 1.1.2 ([181788c](https://github.com/bumped/bumped-finepack/commit/181788c))
+
+
+
 <a name="0.2.3"></a>
 ## 0.2.3 (2016-02-09)
 

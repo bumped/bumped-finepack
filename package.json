@@ -2,7 +2,7 @@
   "name": "bumped-finepack",
   "description": "Lints your JSON Config files and keep them readables.",
   "homepage": "https://github.com/Bumped/bumped-finepack",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "main": "./index.js",
   "author": {
     "name": "Kiko Beats",
@@ -18,8 +18,8 @@
   },
   "keywords": [
     "bumped",
-    "plugin",
-    "finepack"
+    "finepack",
+    "plugin"
   ],
   "dependencies": {
     "async": "~1.5.2",
