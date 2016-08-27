@@ -1,3 +1,12 @@
+<a name="0.2.5"></a>
+## 0.2.5 (2016-08-27)
+
+* Update interface ([186aed8](https://github.com/bumped/bumped-finepack/commit/186aed8))
+* chore(package): update async to version 2.0.0 ([daf77d5](https://github.com/bumped/bumped-finepack/commit/daf77d5))
+* chore(package): update finepack to version 2.3.0 ([d84f987](https://github.com/bumped/bumped-finepack/commit/d84f987))
+
+
+
 <a name="0.2.4"></a>
 ## 0.2.4 (2016-06-23)
 
