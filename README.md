@@ -16,16 +16,6 @@
 
 > Lints your JSON Config files and keep them readables.
 
-## Install
-
-You don't need to install it! Bumped automatically resolve the plugins dependencies. However if you still want to do so must be globally accessible:
-
-```bash
-npm install bumped-finepack -g
-```
-
-## Configuration
-
 The plugin is based in the [finepack](https://github.com/Kikobeats/finepack) library. Basically the plugin expose a interface for setup the library in the .bumpedrc:
 
 ```cson
@@ -38,10 +28,24 @@ plugins:
   postrelease:
     'Lint config files':
       plugin: 'bumped-finepack'
-      options:
-        lint: true # lint the JSON file before validate. by default is true.
-        validate: true # Validate JSON rules. by default is true.
 ```
+
+
+## Install
+
+> You don't need to install it! Bumped automatically resolve the plugins dependencies. However if you still want to do so must be globally accessible:
+
+```bash
+npm install bumped-finepack -g
+```
+
+## API
+
+### opts
+
+Type: `object`
+
+Additional options to be passed to [finepack](https://github.com/Kikobeats/finepack).
 
 ## License
 
