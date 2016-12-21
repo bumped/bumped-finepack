@@ -1,3 +1,19 @@
+<a name="0.2.6"></a>
+## 0.2.6 (2016-12-21)
+
+* Tweaks ([3599cbe](https://github.com/bumped/bumped-finepack/commit/3599cbe))
+* fix(package): update coffee-script to version 1.12.0 ([2540595](https://github.com/bumped/bumped-finepack/commit/2540595))
+* chore: drop support for Node.js 0.10 ([f1777a1](https://github.com/bumped/bumped-finepack/commit/f1777a1))
+* chore(package): update async to version 2.1.0 ([c126510](https://github.com/bumped/bumped-finepack/commit/c126510))
+* chore(package): update coffee-script to version 1.11.0 ([568177c](https://github.com/bumped/bumped-finepack/commit/568177c))
+* chore(package): update dependencies ([356af6f](https://github.com/bumped/bumped-finepack/commit/356af6f))
+
+
+### BREAKING CHANGE
+
+* This module no longer supports Node.js 0.10
+
+
 <a name="0.2.5"></a>
 ## 0.2.5 (2016-08-27)
 
