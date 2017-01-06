@@ -1,3 +1,11 @@
+<a name="0.2.7"></a>
+## 0.2.7 (2017-01-06)
+
+* fix(package): update finepack to version 2.4.0 ([7d0b90f](https://github.com/bumped/bumped-finepack/commit/7d0b90f))
+* chore(package): update dependencies ([afa617e](https://github.com/bumped/bumped-finepack/commit/afa617e))
+
+
+
 <a name="0.2.6"></a>
 ## 0.2.6 (2016-12-21)
 
