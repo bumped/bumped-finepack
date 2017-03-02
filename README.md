@@ -14,9 +14,9 @@
 [![NPM Status](http://img.shields.io/npm/dm/bumped-finepack.svg?style=flat-square)](https://www.npmjs.org/package/bumped-finepack)
 [![Donate](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://paypal.me/kikobeats)
 
-> Lints your JSON Config files and keep them readables.
+> Lints your JSON Config files and keeps them readable.
 
-The plugin is based in the [finepack](https://github.com/Kikobeats/finepack) library. Basically the plugin expose a interface for setup the library in the .bumpedrc:
+This plugin is based on the [finepack](https://github.com/Kikobeats/finepack) library. It exposes an interface to setup such library in <code>.bumpedrc</code>:
 
 ```cson
 files: [
@@ -33,7 +33,7 @@ plugins:
 
 ## Install
 
-> You don't need to install it! Bumped automatically resolve the plugins dependencies. However if you still want to do so must be globally accessible:
+> You don't need to install this module! Bumped automatically resolves the plugins dependencies. However, if you still want to do so, it must be globally accessible:
 
 ```bash
 npm install bumped-finepack -g
