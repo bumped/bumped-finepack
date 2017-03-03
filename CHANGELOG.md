@@ -1,3 +1,13 @@
+<a name="0.2.8"></a>
+## 0.2.8 (2017-03-03)
+
+* Remove yarn.lock ([d69f38d](https://github.com/bumped/bumped-finepack/commit/d69f38d))
+* docs: minor text rearrangements ([1dfc3cd](https://github.com/bumped/bumped-finepack/commit/1dfc3cd))
+* chore: add yarn.lock ([d831a56](https://github.com/bumped/bumped-finepack/commit/d831a56))
+* chore(package): update finepack to version 2.5.0 ([bc04626](https://github.com/bumped/bumped-finepack/commit/bc04626))
+
+
+
 <a name="0.2.7"></a>
 ## 0.2.7 (2017-01-06)
 
