@@ -1,3 +1,17 @@
+<a name="0.2.9"></a>
+## 0.2.9 (2017-09-06)
+
+* fix(package): update async to version 2.5.0 ([a7b3b28](https://github.com/bumped/bumped-finepack/commit/a7b3b28))
+* fix(package): update chalk to version 2.0.0 ([614fe49](https://github.com/bumped/bumped-finepack/commit/614fe49))
+* fix(package): update chalk to version 2.1.0 ([839eea3](https://github.com/bumped/bumped-finepack/commit/839eea3))
+* fix(package): update finepack to version 2.6.0 ([39b80a2](https://github.com/bumped/bumped-finepack/commit/39b80a2))
+* chore(package): update async to version 2.2.0 ([37adac0](https://github.com/bumped/bumped-finepack/commit/37adac0))
+* chore(package): update async to version 2.3.0 ([8fffdb7](https://github.com/bumped/bumped-finepack/commit/8fffdb7))
+* chore(package): update async to version 2.4.0 ([0c725fd](https://github.com/bumped/bumped-finepack/commit/0c725fd))
+* chore(package): update json-future to version 2.1.0 ([b5c8f0a](https://github.com/bumped/bumped-finepack/commit/b5c8f0a))
+
+
+
 <a name="0.2.8"></a>
 ## 0.2.8 (2017-03-03)
 
