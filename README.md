@@ -21,7 +21,6 @@ This plugin is based on the [finepack](https://github.com/Kikobeats/finepack) li
 ```cson
 files: [
   "package.json"
-  "bower.json"
 ]
 
 plugins:
