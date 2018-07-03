@@ -9,6 +9,10 @@
     "name": "Kiko Beats",
     "url": "https://github.com/Kikobeats"
   },
+  "files": [
+    "index.js",
+    "lib"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bumped/bumped-finepack.git"
