@@ -1,3 +1,18 @@
+<a name="0.2.10"></a>
+## 0.2.10 (2018-07-03)
+
+* Add files keyword ([4420e39](https://github.com/bumped/bumped-finepack/commit/4420e39))
+* Remove bower ([c5331c7](https://github.com/bumped/bumped-finepack/commit/c5331c7))
+* Update .travis.yml ([1023208](https://github.com/bumped/bumped-finepack/commit/1023208))
+* fix(package): update async to version 2.6.0 ([ecc3eaf](https://github.com/bumped/bumped-finepack/commit/ecc3eaf))
+* fix(package): update chalk to version 2.2.0 ([44c40f5](https://github.com/bumped/bumped-finepack/commit/44c40f5))
+* fix(package): update chalk to version 2.3.0 ([f9dd01f](https://github.com/bumped/bumped-finepack/commit/f9dd01f))
+* fix(package): update chalk to version 2.4.0 ([42ff219](https://github.com/bumped/bumped-finepack/commit/42ff219))
+* fix(package): update finepack to version 2.7.0 ([61bffd2](https://github.com/bumped/bumped-finepack/commit/61bffd2))
+* fix(package): update finepack to version 2.8.0 ([a06d506](https://github.com/bumped/bumped-finepack/commit/a06d506))
+
+
+
 <a name="0.2.9"></a>
 ## 0.2.9 (2017-09-06)
 
