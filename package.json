@@ -25,7 +25,7 @@
     "async": "~2.6.0",
     "chalk": "~2.4.0",
     "coffee-script": "~1.12.2",
-    "finepack": "~2.8.0",
+    "finepack": "~2.9.0",
     "json-future": "~2.1.0"
   },
   "devDependencies": {
