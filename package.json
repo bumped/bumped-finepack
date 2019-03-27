@@ -22,11 +22,11 @@
     "plugin"
   ],
   "dependencies": {
-    "async": "~2.6.0",
-    "chalk": "~2.4.0",
-    "coffeescript": "~2.3.1",
+    "async": "~2.6.2",
+    "chalk": "~2.4.2",
+    "coffeescript": "~2.3.2",
     "finepack": "~2.9.0",
-    "json-future": "~2.1.0"
+    "json-future": "~2.1.4"
   },
   "devDependencies": {
     "mocha": "latest",
