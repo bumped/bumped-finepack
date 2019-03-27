@@ -1,3 +1,11 @@
+<a name="0.2.11"></a>
+## 0.2.11 (2019-03-27)
+
+* Migrate coffeescript ([e325968](https://github.com/bumped/bumped-finepack/commit/e325968))
+* fix(package): update finepack to version 2.9.0 ([6ec9bce](https://github.com/bumped/bumped-finepack/commit/6ec9bce))
+
+
+
 <a name="0.2.10"></a>
 ## 0.2.10 (2018-07-03)
 
