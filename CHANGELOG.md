@@ -1,3 +1,10 @@
+<a name="0.2.12"></a>
+## 0.2.12 (2019-03-27)
+
+* build: update dependencies ([9d9d867](https://github.com/bumped/bumped-finepack/commit/9d9d867))
+
+
+
 <a name="0.2.11"></a>
 ## 0.2.11 (2019-03-27)
 
