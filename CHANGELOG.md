@@ -1,3 +1,10 @@
+<a name="0.2.13"></a>
+## 0.2.13 (2019-05-23)
+
+* fix(package): update coffeescript to version 2.4.0 ([d3bb9f9](https://github.com/bumped/bumped-finepack/commit/d3bb9f9))
+
+
+
 <a name="0.2.12"></a>
 ## 0.2.12 (2019-03-27)
 
