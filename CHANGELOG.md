@@ -1,3 +1,10 @@
+<a name="0.3.0"></a>
+# 0.3.0 (2019-05-27)
+
+* fix(package): update async to version 3.0.1 ([cc62088](https://github.com/bumped/bumped-finepack/commit/cc62088))
+
+
+
 <a name="0.2.13"></a>
 ## 0.2.13 (2019-05-23)
 
