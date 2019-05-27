@@ -26,7 +26,7 @@
     "chalk": "~2.4.2",
     "coffeescript": "~2.4.0",
     "finepack": "~2.9.0",
-    "json-future": "~2.1.4"
+    "json-future": "~2.2.0"
   },
   "devDependencies": {
     "mocha": "latest",
