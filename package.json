@@ -23,7 +23,7 @@
   ],
   "dependencies": {
     "async": "~3.1.0",
-    "chalk": "~2.4.2",
+    "chalk": "~3.0.0",
     "coffeescript": "~2.4.0",
     "finepack": "~2.9.0",
     "json-future": "~2.2.0"
