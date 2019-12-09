@@ -1,3 +1,14 @@
+## <small>0.3.1 (2019-12-09)</small>
+
+* build: update dependencies ([cc38a13](https://github.com/bumped/bumped-finepack/commit/cc38a13))
+* fix(package): update async to version 3.1.0 ([6d6fc75](https://github.com/bumped/bumped-finepack/commit/6d6fc75))
+* fix(package): update chalk to version 3.0.0 ([41099bd](https://github.com/bumped/bumped-finepack/commit/41099bd))
+* fix(package): update finepack to version 2.10.0 ([45d49f6](https://github.com/bumped/bumped-finepack/commit/45d49f6))
+* fix(package): update json-future to version 2.2.0 ([25ee688](https://github.com/bumped/bumped-finepack/commit/25ee688))
+* Update .travis.yml ([abb91c7](https://github.com/bumped/bumped-finepack/commit/abb91c7))
+
+
+
 <a name="0.3.0"></a>
 # 0.3.0 (2019-05-27)
 
