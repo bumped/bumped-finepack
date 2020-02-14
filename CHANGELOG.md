@@ -1,3 +1,10 @@
+## 0.4.0 (2020-02-14)
+
+* fix(package): update coffeescript to version 2.5.0 ([73d9207](https://github.com/bumped/bumped-finepack/commit/73d9207))
+* fix(package): update coffeescript to version 2.5.1 ([da8cb9f](https://github.com/bumped/bumped-finepack/commit/da8cb9f))
+
+
+
 ## <small>0.3.1 (2019-12-09)</small>
 
 * build: update dependencies ([cc38a13](https://github.com/bumped/bumped-finepack/commit/cc38a13))
