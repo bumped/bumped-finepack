@@ -1,3 +1,11 @@
+## <small>0.4.1 (2020-04-02)</small>
+
+* build: update dependencies ([e21f064](https://github.com/bumped/bumped-finepack/commit/e21f064))
+* build(deps): bump async from 3.1.1 to 3.2.0 ([a0a3e1f](https://github.com/bumped/bumped-finepack/commit/a0a3e1f))
+* fix(package): update chalk to version 4.0.0 ([4d3969f](https://github.com/bumped/bumped-finepack/commit/4d3969f))
+
+
+
 ## 0.4.0 (2020-02-14)
 
 * fix(package): update coffeescript to version 2.5.0 ([73d9207](https://github.com/bumped/bumped-finepack/commit/73d9207))
